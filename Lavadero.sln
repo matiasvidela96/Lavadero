@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lavadero", "Lavadero.csproj", "{A0F7F8E4-CAF3-48CF-8853-0CA19751A161}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lavadero.Entidades", "..\Entidades\Lavadero.Entidades.csproj", "{6B1B03DF-722F-430D-8575-7EEB4B5EDA36}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entidades", "Entidades", "{DDB8B097-1796-45FC-85AC-40F4447C5A1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lavadero.Utiles", "..\Utiles\Lavadero.Utiles.csproj", "{5BCCAD4F-AC28-403B-9BF9-09752B8FF5F1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Negocio", "Negocio", "{3AA0A705-C7BA-464B-AA51-DD08FAA9F496}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lavadero.Negocio", "..\Lavadero.Negocio\Lavadero.Negocio.csproj", "{FEEB4C22-6AFE-4E86-BCE7-65CFB4004434}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lavadero.Negocio.Interfaces", "..\Lavadero.Negocio.Interfaces\Lavadero.Negocio.Interfaces.csproj", "{F6C414D4-FB73-4C7C-992C-4D451A3E1C6F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0F7F8E4-CAF3-48CF-8853-0CA19751A161}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0F7F8E4-CAF3-48CF-8853-0CA19751A161}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0F7F8E4-CAF3-48CF-8853-0CA19751A161}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0F7F8E4-CAF3-48CF-8853-0CA19751A161}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B1B03DF-722F-430D-8575-7EEB4B5EDA36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B1B03DF-722F-430D-8575-7EEB4B5EDA36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B1B03DF-722F-430D-8575-7EEB4B5EDA36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B1B03DF-722F-430D-8575-7EEB4B5EDA36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BCCAD4F-AC28-403B-9BF9-09752B8FF5F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BCCAD4F-AC28-403B-9BF9-09752B8FF5F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BCCAD4F-AC28-403B-9BF9-09752B8FF5F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BCCAD4F-AC28-403B-9BF9-09752B8FF5F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEEB4C22-6AFE-4E86-BCE7-65CFB4004434}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEEB4C22-6AFE-4E86-BCE7-65CFB4004434}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEEB4C22-6AFE-4E86-BCE7-65CFB4004434}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEEB4C22-6AFE-4E86-BCE7-65CFB4004434}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6C414D4-FB73-4C7C-992C-4D451A3E1C6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6C414D4-FB73-4C7C-992C-4D451A3E1C6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6C414D4-FB73-4C7C-992C-4D451A3E1C6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6C414D4-FB73-4C7C-992C-4D451A3E1C6F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6B1B03DF-722F-430D-8575-7EEB4B5EDA36} = {DDB8B097-1796-45FC-85AC-40F4447C5A1B}
+		{5BCCAD4F-AC28-403B-9BF9-09752B8FF5F1} = {DDB8B097-1796-45FC-85AC-40F4447C5A1B}
+		{FEEB4C22-6AFE-4E86-BCE7-65CFB4004434} = {3AA0A705-C7BA-464B-AA51-DD08FAA9F496}
+		{F6C414D4-FB73-4C7C-992C-4D451A3E1C6F} = {3AA0A705-C7BA-464B-AA51-DD08FAA9F496}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F6169542-E4BE-4572-AAF8-2E9B5FB0C64C}
+	EndGlobalSection
+EndGlobal
