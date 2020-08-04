@@ -12,6 +12,9 @@
 
   <ItemGroup>
     <Folder Include="Controllers\" />
+    <Folder Include="Models\DTO\" />
+    <Folder Include="Negocio\Interfaces\" />
+    <Folder Include="Negocio\Servicios\" />
   </ItemGroup>
 
 </Project>
