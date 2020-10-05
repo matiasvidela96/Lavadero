@@ -7,7 +7,7 @@ namespace Lavadero.Models.Entidades
 {
     public class EmpleadoConceptoPago
     {
-        public int IdEmpleadoConceptoPago { get; set; }
+        public int Id { get; set; }
         public DateTime fechaHoraInicioEmpleadoConceptoPago { get; set; }
         public DateTime fechaHoraFinEmpleadoConceptoPago { get; set; }
 

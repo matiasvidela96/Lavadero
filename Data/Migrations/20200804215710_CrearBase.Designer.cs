@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Lavadero.Data.Migrations
 {
-    [DbContext(typeof(ApplicationDbContext))]
+    [DbContext(typeof(LavaderoDbContext))]
     [Migration("20200804215710_CrearBase")]
     partial class CrearBase
     {

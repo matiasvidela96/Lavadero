@@ -7,7 +7,7 @@ namespace Lavadero.Models.Entidades
 {
     public class OrdenServicio
     {
-        public int IdOrdenServicio { get; set; }
+        public int Id { get; set; }
         public DateTime fechaHoraIngreso { get; set; }
         public DateTime fechaHoraEgreso { get; set; }
 

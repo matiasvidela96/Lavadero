@@ -8,7 +8,7 @@ namespace Lavadero.Models.Entidades
 {
     public class Empleado
     {
-        public int IdEmpleado { get; set; }
+        public int Id { get; set; }
         public string nombreEmpleado { get; set; }
         public int dniEmpleado { get; set; }
         public DateTime? fechaBaja { get; set; }

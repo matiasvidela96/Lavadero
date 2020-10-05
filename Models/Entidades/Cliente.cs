@@ -8,11 +8,12 @@ namespace Lavadero.Models.Entidades
 {
     public class Cliente
     {
-        public int numeroCliente { get; set; }
+        public int Id { get; set; }
         public string nombreCliente { get; set; }
         public int telefonoCliente { get; set; }
 
         public IEnumerable<Reclamo> reclamo { get; set; }
         //public IEnumerable<Vehiculo> vehiculo { get; set; }
+
     }
 }

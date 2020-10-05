@@ -8,7 +8,7 @@ namespace Lavadero.Models.Entidades
 {
     public class Vehiculo
     {
-        public int IdVehiculo { get; set; }
+        public int Id { get; set; }
         public string patenteVehiculo { get; set; }
         public string modeloVehiculo { get; set; }
         public string marcaVehiculo { get; set; }

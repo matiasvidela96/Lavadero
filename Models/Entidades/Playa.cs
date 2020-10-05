@@ -8,12 +8,13 @@ namespace Lavadero.Models.Entidades
 {
     public class Playa
     {
-        public int IdPlaya { get; set; }
+        public int Id { get; set; }
         public string nombrePlaya { get; set; }
         public string ubicacionPlaya { get; set; }//en enumeracion
         public string estadoPlaya { get; set; }//en enumeracion
 
         public IEnumerable<MovimientoCaja> movimientoCaja { get; set; }
+        public PlayaEstado playaEstado { get; set; }
 
     }
 }

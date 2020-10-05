@@ -7,7 +7,7 @@ namespace Lavadero.Models.Entidades
 {
     public class OrdenServicioEstado
     {
-        public int IdOrdenServicioEstado { get; set; }
+        public int Id { get; set; }
         public string nombreOrdenServicioEstado { get; set; }
     }
 }

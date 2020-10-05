@@ -8,7 +8,7 @@ namespace Lavadero.Models.Entidades
 {
     public class MovimientoCaja
     {
-        public int IdMovimientoCaja { get; set; }
+        public int Id { get; set; }
         public int tipoMovimientoCaja { get; set; }//enumeracion para distintos tipos
         public DateTime fechaHoraMovimientoCaja { get; set; }
     }

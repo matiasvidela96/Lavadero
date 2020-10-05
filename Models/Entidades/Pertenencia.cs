@@ -8,7 +8,7 @@ namespace Lavadero.Models.Entidades
 {
     public class Pertenencia
     {
-        public int IdNumeroPertenencia { get; set; }
+        public int Id { get; set; }
         public string nombrePertenencia { get; set; }
         public string descripcionPertenencia { get; set; }
 
